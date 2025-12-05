@@ -26,7 +26,10 @@ All references to key items have been removed from the pathfinding checks. Ultim
  8. next ensure the server you're going to connect to is running.
  9. open the "Randomizer" folder and run `DS3Randomizer.exe`, and thru that application connect to your archipelago server and click "load".
  10. Next open the Fog folder, and run FogMod.exe
- 11. And finally run `launchmod_darksouls3.bat` to connect to the Archipelago server and begin playing.
+ 11. Press the "select other mod to merge" button, and locate the `Data0.bdt` file inside of the `Archipelago/Randomizer` folder.
+ 12. Select the settings you want. (i recommend pacifist mode, as well as all entrances randomized.)
+ 13. Press "Randomize!"
+ 14. And finally run `launchmod_darksouls3.bat` to connect to the Archipelago server and begin playing.
 ## FAQ
 
 #### The first fog door leads me into a dead end, what do i do?
