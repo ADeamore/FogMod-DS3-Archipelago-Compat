@@ -11,7 +11,7 @@ Original project source:
 All references to key items have been removed from the pathfinding checks. Ultimately that leaves 12 locations that the fogmod pathfinder cannot locate due to not having key items to get into them. Several cell doors, Firelink *with* the Firecoil Sword, and The First Kiln to name a few. These locations are now entirely ignored by the randomizer in pathfinding. This results in some more odd situations where spawning in the graveyard will almost always be a dead-end. The solution is to fast travel to firelink shrine using the first bonfire as way to avoid softlock. Pathfinding still will allow every non-key-item based location being accessible, and key items *should* function as they do in vanilla. This mod DOES NOT link into archipelago, but is instead made to work alongside it without interfacing directly. 
 ## Installation Instructions Alongside Archipelago
  1. Grab the most recent build (.zip) [from the releases tab](https://github.com/ADeamore/FogMod-Archipelago-Compat/releases/tag/latest).
- 2. Grab the [ds3 archipelago mod](https://github.com/nex3/Dark-Souls-III-Archipelago-client/releases/tag/v3.0.13)
+ 2. Grab the [ds3 archipelago mod](https://github.com/nex3/Dark-Souls-III-Archipelago-client/releases/tag/v3.0.13). It __DOES__ need to be this version.
  3. Extract the DS3 Archipelago folder into *any* location, on the same drive as your DS3 installation. It will locate your game from there on its own.
  4. Create a folder inside of the DS3 Archipelago folder named "Fog"
  5. Drag the contents of the fogmod.zip into the folder you just created.
